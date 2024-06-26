@@ -1,0 +1,134 @@
+
+/* Reset some default styles */
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+/* Basic styles for layout */
+.container {
+max-width: 960px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+margin-right: -15px;
+margin-left: -15px;
+}
+
+.col-sm-6 {
+width: 50%;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+/* Styles for form blocks */
+.form-block {
+margin-bottom: 15px;
+}
+
+.form-block label {
+display: block;
+margin-bottom: 5px;
+}
+
+.form-block input[type="text"],
+.form-block input[type="email"],
+.form-block textarea {
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 14px;
+}
+
+.form-block textarea {
+height: 100px;
+}
+
+/* Styles for radio buttons */
+.form-block input[type="radio"] {
+margin-right: 5px;
+}
+
+/* Your order section styles */
+.your-order {
+background: #f9f9f9;
+padding: 20px;
+margin-top: 20px;
+}
+
+.your-order-head h5,
+.your-order-body {
+margin-bottom: 10px;
+}
+
+.your-order-item {
+margin-bottom: 10px;
+border-bottom: 1px solid #ddd;
+padding-bottom: 10px;
+}
+
+.your-order-item:last-child {
+border-bottom: none;
+}
+
+.your-order-item img {
+margin-right: 10px;
+border-radius: 4px;
+}
+
+.your-order-item .media-body {
+font-size: 14px;
+}
+
+.your-order-item .color-black {
+font-weight: bold;
+}
+
+.payment_methods li {
+margin-bottom: 10px;
+}
+
+.payment_methods label {
+cursor: pointer;
+display: inline-block;
+margin-bottom: 5px;
+}
+
+.payment_box {
+margin-top: 5px;
+padding: 5px;
+background-color: #f0f0f0;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.payment_box p {
+margin-bottom: 5px;
+}
+
+/* Button styles */
+.beta-btn {
+display: inline-block;
+padding: 10px 20px;
+background-color: #337ab7;
+color: #fff;
+text-decoration: none;
+border-radius: 4px;
+text-align: center;
+transition: background-color 0.3s;
+}
+
+.beta-btn:hover {
+background-color: #286090;
+}
+
+.text-center {
+text-align: center;
+}
+
